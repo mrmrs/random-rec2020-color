@@ -1,6 +1,6 @@
 'use strict';
 
-const test = require('ava');
+const test = require('ava').default;
 const randomRec2020Color = require('./');
 
 test('returns a CSS color() string with two-decimal channels and no alpha by default', (t) => {
